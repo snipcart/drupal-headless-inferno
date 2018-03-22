@@ -9,6 +9,10 @@ body {
   text-decoration: underline;
 }
 
+.title {
+  font-weight: bold;
+}
+
 .snipcart-add-item{
   background-color: #3F51B5;
   font-size: 18px;

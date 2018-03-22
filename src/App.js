@@ -35,7 +35,8 @@ class App extends Component {
                 class="thumbnail"/>
               
               <div class="product-description">
-              <p>{ x.name }</p>
+              <p class="title">{ x.name }</p>
+              <p>{ x.description }</p>
 
               <button class="snipcart-add-item"
                 data-item-name={ x.name }
