@@ -4,8 +4,8 @@ body {
   font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
 }
 
-.snipcart-checkout:hover{
-  color: #3F51B5;
+.snipcart-checkout:hover {
+  color: #E65100;
   text-decoration: underline;
 }
 
@@ -13,47 +13,48 @@ body {
   font-weight: bold;
 }
 
-.snipcart-add-item{
-  background-color: #3F51B5;
+.snipcart-add-item {
+  background-color: #E65100;
   font-size: 18px;
   color: white;
   border: 0px;
   border-radius: 3%;
 }
 
-.snipcart-add-item:hover{
-  box-shadow: 0px 3px 5px #888888;
+.snipcart-add-item:hover {
+  box-shadow: 0px 3px 5px #FFE0B2;
 }
 
-.snipcart-add-item:active{
+.snipcart-add-item:active {
   box-shadow: 0 0 0 0;
 }
 
-.product-description{
+.product-description {
   width: 400px;
   padding: 25px;
   margin: 25px;
-  background-color: #CFD8DC;
+  background-color: #FFE0B2;
   font-size: 20px;
 }
 
 .product-details, .product-reviews{
+  padding-top: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .products{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .product{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 35px;
